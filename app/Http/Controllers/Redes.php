@@ -9,8 +9,8 @@ class Redes extends Controller
 {
 	public function index($id=null)
 	{
-		$db=Redes_model::get_content($id);
-		$chapter=Redes_model::get_chapter($id);
+			$db=Redes_model::get_content($id);
+			$chapter=Redes_model::get_chapter($id);
 		$chapters=Redes_model::getAll_chapter();
 		$values = array(
                 'chapter' => $db,
