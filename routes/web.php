@@ -11,6 +11,4 @@
 |
 */
 Route::get('/{id?}', 'Redes@index');
-
-
 ?>
