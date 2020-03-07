@@ -10,5 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('{id?}', 'Redes@index');
+Route::get('/{id?}', 'Redes@index');
 ?>
