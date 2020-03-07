@@ -8,15 +8,3 @@
     @endforeach
   </ul>
 </aside>
-<script>
-  // Add active class to the current button (highlight it)
-  var header = document.getElementById("myDIV");
-  var btns = header.getElementsByClassName("");
-  for (var i = 0; i < count($chapters); i++) {
-    btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("is-active");
-    current[0].className = current[0].className.replace(" is-active", "");
-    this.className += " is-active";
-    });
-  }
-</script>
