@@ -10,5 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/chapter/{id?}', 'Redes@index');
+Route::get('/chapter/', 'Redes@index');
+Route::get('/chapter/{id}', 'Redes@index');
 ?>
